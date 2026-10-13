@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Stripy Store
+Comment=Find and install applications on StripyOS
+Exec=stripy-store
+Icon=system-software-install
+Categories=System;PackageManager;Qt;
+Terminal=false

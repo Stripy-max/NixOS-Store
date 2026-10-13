@@ -1,0 +1,807 @@
+{
+ "schema": 2,
+ "categories": [
+  {
+   "id": "internet",
+   "name": "Internet & Communication",
+   "icon": "applications-internet"
+  },
+  {
+   "id": "games",
+   "name": "Games",
+   "icon": "applications-games"
+  },
+  {
+   "id": "multimedia",
+   "name": "Multimedia",
+   "icon": "applications-multimedia"
+  },
+  {
+   "id": "graphics",
+   "name": "Graphics & Photography",
+   "icon": "applications-graphics"
+  },
+  {
+   "id": "office",
+   "name": "Office & Productivity",
+   "icon": "applications-office"
+  },
+  {
+   "id": "development",
+   "name": "Development",
+   "icon": "applications-development"
+  },
+  {
+   "id": "education",
+   "name": "Education",
+   "icon": "applications-education"
+  },
+  {
+   "id": "system",
+   "name": "System Tools",
+   "icon": "applications-system"
+  },
+  {
+   "id": "utilities",
+   "name": "Utilities",
+   "icon": "applications-utilities"
+  },
+  {
+   "id": "science",
+   "name": "Science & Engineering",
+   "icon": "applications-science"
+  }
+ ],
+ "apps": [
+  {
+   "attr": "firefox",
+   "name": "Firefox",
+   "description": "Fast, private web browser",
+   "categories": [
+    "internet"
+   ],
+   "keywords": [
+    "browser",
+    "web",
+    "mozilla"
+   ],
+   "license": "free",
+   "rank": 1,
+   "homepage": "https://www.mozilla.org/firefox/",
+   "featured": true
+  },
+  {
+   "attr": "chromium",
+   "name": "Chromium",
+   "description": "Open-source web browser",
+   "categories": [
+    "internet"
+   ],
+   "keywords": [
+    "browser",
+    "web"
+   ],
+   "license": "free",
+   "rank": 6,
+   "homepage": "https://www.chromium.org/"
+  },
+  {
+   "attr": "google-chrome",
+   "name": "Google Chrome",
+   "description": "Google's web browser",
+   "categories": [
+    "internet"
+   ],
+   "keywords": [
+    "browser",
+    "web"
+   ],
+   "license": "unfree",
+   "rank": 30,
+   "homepage": "https://www.google.com/chrome/"
+  },
+  {
+   "attr": "thunderbird",
+   "name": "Thunderbird",
+   "description": "Email, calendar and news client",
+   "categories": [
+    "internet",
+    "office"
+   ],
+   "keywords": [
+    "mail",
+    "email",
+    "calendar"
+   ],
+   "license": "free",
+   "rank": 8,
+   "homepage": "https://www.thunderbird.net/"
+  },
+  {
+   "attr": "discord",
+   "name": "Discord",
+   "description": "Voice, video and text chat",
+   "categories": [
+    "internet",
+    "games"
+   ],
+   "keywords": [
+    "chat",
+    "voice",
+    "gaming"
+   ],
+   "license": "unfree",
+   "rank": 4,
+   "homepage": "https://discord.com/"
+  },
+  {
+   "attr": "telegram-desktop",
+   "name": "Telegram",
+   "description": "Messaging app",
+   "categories": [
+    "internet"
+   ],
+   "keywords": [
+    "chat",
+    "messenger"
+   ],
+   "license": "free",
+   "rank": 9,
+   "homepage": "https://desktop.telegram.org/"
+  },
+  {
+   "attr": "signal-desktop",
+   "name": "Signal",
+   "description": "Private messenger",
+   "categories": [
+    "internet"
+   ],
+   "keywords": [
+    "chat",
+    "messenger",
+    "privacy"
+   ],
+   "license": "free",
+   "rank": 10,
+   "homepage": "https://signal.org/"
+  },
+  {
+   "attr": "qbittorrent",
+   "name": "qBittorrent",
+   "description": "BitTorrent client",
+   "categories": [
+    "internet",
+    "utilities"
+   ],
+   "keywords": [
+    "torrent",
+    "download"
+   ],
+   "license": "free",
+   "rank": 12,
+   "homepage": "https://www.qbittorrent.org/"
+  },
+  {
+   "attr": "steam",
+   "name": "Steam",
+   "description": "Game store and launcher",
+   "categories": [
+    "games"
+   ],
+   "keywords": [
+    "gaming",
+    "valve",
+    "proton"
+   ],
+   "license": "unfree",
+   "rank": 2,
+   "homepage": "https://store.steampowered.com/",
+   "featured": true
+  },
+  {
+   "attr": "lutris",
+   "name": "Lutris",
+   "description": "Open gaming platform for Linux",
+   "categories": [
+    "games"
+   ],
+   "keywords": [
+    "wine",
+    "launcher",
+    "emulation"
+   ],
+   "license": "free",
+   "rank": 11,
+   "homepage": "https://lutris.net/"
+  },
+  {
+   "attr": "heroic",
+   "name": "Heroic Games Launcher",
+   "description": "Epic, GOG and Amazon games launcher",
+   "categories": [
+    "games"
+   ],
+   "keywords": [
+    "epic",
+    "gog",
+    "launcher"
+   ],
+   "license": "free",
+   "rank": 13,
+   "homepage": "https://heroicgameslauncher.com/"
+  },
+  {
+   "attr": "prismlauncher",
+   "name": "Prism Launcher",
+   "description": "Minecraft launcher",
+   "categories": [
+    "games"
+   ],
+   "keywords": [
+    "minecraft",
+    "launcher"
+   ],
+   "license": "free",
+   "rank": 14,
+   "homepage": "https://prismlauncher.org/"
+  },
+  {
+   "attr": "mangohud",
+   "name": "MangoHud",
+   "description": "FPS and performance overlay",
+   "categories": [
+    "games",
+    "system"
+   ],
+   "keywords": [
+    "fps",
+    "overlay",
+    "performance"
+   ],
+   "license": "free",
+   "rank": 20,
+   "homepage": "https://github.com/flightlessmango/MangoHud"
+  },
+  {
+   "attr": "protonup-qt",
+   "name": "ProtonUp-Qt",
+   "description": "Install and manage Proton-GE and Wine builds",
+   "categories": [
+    "games"
+   ],
+   "keywords": [
+    "proton",
+    "wine",
+    "ge"
+   ],
+   "license": "free",
+   "rank": 21,
+   "homepage": "https://davidotek.github.io/protonup-qt/"
+  },
+  {
+   "attr": "vlc",
+   "name": "VLC",
+   "description": "Plays almost any media file",
+   "categories": [
+    "multimedia"
+   ],
+   "keywords": [
+    "video",
+    "audio",
+    "player",
+    "media"
+   ],
+   "license": "free",
+   "rank": 3,
+   "homepage": "https://www.videolan.org/vlc/",
+   "featured": true
+  },
+  {
+   "attr": "mpv",
+   "name": "mpv",
+   "description": "Minimal, powerful video player",
+   "categories": [
+    "multimedia"
+   ],
+   "keywords": [
+    "video",
+    "player"
+   ],
+   "license": "free",
+   "rank": 15,
+   "homepage": "https://mpv.io/"
+  },
+  {
+   "attr": "spotify",
+   "name": "Spotify",
+   "description": "Music streaming",
+   "categories": [
+    "multimedia"
+   ],
+   "keywords": [
+    "music",
+    "streaming"
+   ],
+   "license": "unfree",
+   "rank": 7,
+   "homepage": "https://www.spotify.com/"
+  },
+  {
+   "attr": "obs-studio",
+   "name": "OBS Studio",
+   "description": "Recording and live streaming",
+   "categories": [
+    "multimedia"
+   ],
+   "keywords": [
+    "record",
+    "stream",
+    "screencast"
+   ],
+   "license": "free",
+   "rank": 5,
+   "homepage": "https://obsproject.com/",
+   "featured": true
+  },
+  {
+   "attr": "kdePackages.kdenlive",
+   "name": "Kdenlive",
+   "description": "Video editor",
+   "categories": [
+    "multimedia",
+    "graphics"
+   ],
+   "keywords": [
+    "video",
+    "editor",
+    "movie"
+   ],
+   "license": "free",
+   "rank": 16,
+   "homepage": "https://kdenlive.org/"
+  },
+  {
+   "attr": "audacity",
+   "name": "Audacity",
+   "description": "Audio editor and recorder",
+   "categories": [
+    "multimedia"
+   ],
+   "keywords": [
+    "audio",
+    "sound",
+    "editor"
+   ],
+   "license": "free",
+   "rank": 17,
+   "homepage": "https://www.audacityteam.org/"
+  },
+  {
+   "attr": "gimp",
+   "name": "GIMP",
+   "description": "Image editor",
+   "categories": [
+    "graphics"
+   ],
+   "keywords": [
+    "photo",
+    "image",
+    "photoshop",
+    "editor"
+   ],
+   "license": "free",
+   "rank": 5,
+   "homepage": "https://www.gimp.org/"
+  },
+  {
+   "attr": "krita",
+   "name": "Krita",
+   "description": "Digital painting",
+   "categories": [
+    "graphics"
+   ],
+   "keywords": [
+    "paint",
+    "draw",
+    "art"
+   ],
+   "license": "free",
+   "rank": 9,
+   "homepage": "https://krita.org/"
+  },
+  {
+   "attr": "inkscape",
+   "name": "Inkscape",
+   "description": "Vector graphics editor",
+   "categories": [
+    "graphics"
+   ],
+   "keywords": [
+    "svg",
+    "vector",
+    "illustrator"
+   ],
+   "license": "free",
+   "rank": 10,
+   "homepage": "https://inkscape.org/"
+  },
+  {
+   "attr": "blender",
+   "name": "Blender",
+   "description": "3D creation suite",
+   "categories": [
+    "graphics",
+    "science"
+   ],
+   "keywords": [
+    "3d",
+    "modeling",
+    "animation",
+    "render"
+   ],
+   "license": "free",
+   "rank": 6,
+   "homepage": "https://www.blender.org/"
+  },
+  {
+   "attr": "libreoffice-qt",
+   "name": "LibreOffice",
+   "description": "Full office suite",
+   "categories": [
+    "office"
+   ],
+   "keywords": [
+    "word",
+    "excel",
+    "document",
+    "spreadsheet",
+    "presentation"
+   ],
+   "license": "free",
+   "rank": 2,
+   "homepage": "https://www.libreoffice.org/",
+   "featured": true
+  },
+  {
+   "attr": "obsidian",
+   "name": "Obsidian",
+   "description": "Markdown knowledge base",
+   "categories": [
+    "office"
+   ],
+   "keywords": [
+    "notes",
+    "markdown"
+   ],
+   "license": "unfree",
+   "rank": 14,
+   "homepage": "https://obsidian.md/"
+  },
+  {
+   "attr": "keepassxc",
+   "name": "KeePassXC",
+   "description": "Offline password manager",
+   "categories": [
+    "office",
+    "utilities"
+   ],
+   "keywords": [
+    "password",
+    "security",
+    "vault"
+   ],
+   "license": "free",
+   "rank": 11,
+   "homepage": "https://keepassxc.org/"
+  },
+  {
+   "attr": "bitwarden-desktop",
+   "name": "Bitwarden",
+   "description": "Password manager",
+   "categories": [
+    "office",
+    "utilities"
+   ],
+   "keywords": [
+    "password",
+    "security",
+    "vault"
+   ],
+   "license": "free",
+   "rank": 12,
+   "homepage": "https://bitwarden.com/"
+  },
+  {
+   "attr": "vscode",
+   "name": "Visual Studio Code",
+   "description": "Code editor",
+   "categories": [
+    "development"
+   ],
+   "keywords": [
+    "code",
+    "editor",
+    "ide"
+   ],
+   "license": "unfree",
+   "rank": 1,
+   "homepage": "https://code.visualstudio.com/",
+   "featured": true
+  },
+  {
+   "attr": "git",
+   "name": "Git",
+   "description": "Distributed version control",
+   "categories": [
+    "development"
+   ],
+   "keywords": [
+    "vcs",
+    "source"
+   ],
+   "license": "free",
+   "rank": 3,
+   "homepage": "https://git-scm.com/"
+  },
+  {
+   "attr": "neovim",
+   "name": "Neovim",
+   "description": "Modal text editor",
+   "categories": [
+    "development"
+   ],
+   "keywords": [
+    "vim",
+    "editor",
+    "terminal"
+   ],
+   "license": "free",
+   "rank": 8,
+   "homepage": "https://neovim.io/"
+  },
+  {
+   "attr": "podman",
+   "name": "Podman",
+   "description": "Containers without a daemon",
+   "categories": [
+    "development",
+    "system"
+   ],
+   "keywords": [
+    "container",
+    "docker"
+   ],
+   "license": "free",
+   "rank": 13,
+   "homepage": "https://podman.io/"
+  },
+  {
+   "attr": "python3",
+   "name": "Python 3",
+   "description": "Python interpreter",
+   "categories": [
+    "development"
+   ],
+   "keywords": [
+    "python",
+    "programming"
+   ],
+   "license": "free",
+   "rank": 5,
+   "homepage": "https://www.python.org/"
+  },
+  {
+   "attr": "nodejs",
+   "name": "Node.js",
+   "description": "JavaScript runtime",
+   "categories": [
+    "development"
+   ],
+   "keywords": [
+    "javascript",
+    "node",
+    "npm"
+   ],
+   "license": "free",
+   "rank": 7,
+   "homepage": "https://nodejs.org/"
+  },
+  {
+   "attr": "anki",
+   "name": "Anki",
+   "description": "Flashcards with spaced repetition",
+   "categories": [
+    "education"
+   ],
+   "keywords": [
+    "study",
+    "flashcards",
+    "memory"
+   ],
+   "license": "free",
+   "rank": 1,
+   "homepage": "https://apps.ankiweb.net/"
+  },
+  {
+   "attr": "gcompris",
+   "name": "GCompris",
+   "description": "Educational activities for children",
+   "categories": [
+    "education"
+   ],
+   "keywords": [
+    "kids",
+    "children",
+    "learning"
+   ],
+   "license": "free",
+   "rank": 2,
+   "homepage": "https://gcompris.net/"
+  },
+  {
+   "attr": "geogebra6",
+   "name": "GeoGebra",
+   "description": "Interactive geometry, algebra and calculus",
+   "categories": [
+    "education",
+    "science"
+   ],
+   "keywords": [
+    "math",
+    "geometry",
+    "algebra"
+   ],
+   "license": "unfree",
+   "rank": 3,
+   "homepage": "https://www.geogebra.org/"
+  },
+  {
+   "attr": "stellarium",
+   "name": "Stellarium",
+   "description": "Planetarium for your computer",
+   "categories": [
+    "education",
+    "science"
+   ],
+   "keywords": [
+    "astronomy",
+    "stars",
+    "sky"
+   ],
+   "license": "free",
+   "rank": 4,
+   "homepage": "https://stellarium.org/"
+  },
+  {
+   "attr": "btop",
+   "name": "btop",
+   "description": "Resource monitor",
+   "categories": [
+    "system",
+    "utilities"
+   ],
+   "keywords": [
+    "monitor",
+    "cpu",
+    "memory",
+    "task manager"
+   ],
+   "license": "free",
+   "rank": 1,
+   "homepage": "https://github.com/aristocratos/btop"
+  },
+  {
+   "attr": "gparted",
+   "name": "GParted",
+   "description": "Partition editor",
+   "categories": [
+    "system"
+   ],
+   "keywords": [
+    "disk",
+    "partition",
+    "format"
+   ],
+   "license": "free",
+   "rank": 2,
+   "homepage": "https://gparted.org/"
+  },
+  {
+   "attr": "kdePackages.partitionmanager",
+   "name": "KDE Partition Manager",
+   "description": "Disk and partition tool",
+   "categories": [
+    "system"
+   ],
+   "keywords": [
+    "disk",
+    "partition",
+    "format"
+   ],
+   "license": "free",
+   "rank": 3,
+   "homepage": "https://apps.kde.org/partitionmanager/"
+  },
+  {
+   "attr": "fastfetch",
+   "name": "Fastfetch",
+   "description": "System information in the terminal",
+   "categories": [
+    "system",
+    "utilities"
+   ],
+   "keywords": [
+    "neofetch",
+    "info"
+   ],
+   "license": "free",
+   "rank": 9,
+   "homepage": "https://github.com/fastfetch-cli/fastfetch"
+  },
+  {
+   "attr": "freecad",
+   "name": "FreeCAD",
+   "description": "Parametric 3D CAD modeler",
+   "categories": [
+    "science",
+    "graphics"
+   ],
+   "keywords": [
+    "cad",
+    "engineering",
+    "3d"
+   ],
+   "license": "free",
+   "rank": 1,
+   "homepage": "https://www.freecad.org/"
+  },
+  {
+   "attr": "kicad",
+   "name": "KiCad",
+   "description": "Electronic design automation",
+   "categories": [
+    "science"
+   ],
+   "keywords": [
+    "electronics",
+    "pcb",
+    "circuit"
+   ],
+   "license": "free",
+   "rank": 2,
+   "homepage": "https://www.kicad.org/"
+  },
+  {
+   "attr": "qgis",
+   "name": "QGIS",
+   "description": "Geographic information system",
+   "categories": [
+    "science"
+   ],
+   "keywords": [
+    "gis",
+    "maps",
+    "geography"
+   ],
+   "license": "free",
+   "rank": 3,
+   "homepage": "https://qgis.org/"
+  },
+  {
+   "attr": "octave",
+   "name": "GNU Octave",
+   "description": "Numerical computation, MATLAB-compatible",
+   "categories": [
+    "science"
+   ],
+   "keywords": [
+    "matlab",
+    "math",
+    "numeric"
+   ],
+   "license": "free",
+   "rank": 4,
+   "homepage": "https://octave.org/"
+  }
+ ]
+}
